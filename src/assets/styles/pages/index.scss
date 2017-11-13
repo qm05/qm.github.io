@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e5e9ef;
+}
+
+/*index页面*/
+.page-index {
+  max-width: 1080px;
+  .q-header {
+    .q-title {
+      text-align: center;
+    }
+  }
+  .q-cont {
+    display: flex;
+    margin: 20px auto 0;
+    .q-item {
+      width: 18%;
+      margin: 0 1%;
+      padding: 10px;
+      background-color: #fff;
+      cursor:pointer;
+    }
+  }
+}
